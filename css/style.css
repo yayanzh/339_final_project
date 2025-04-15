@@ -10,28 +10,46 @@
     border: 2px solid blue;
 }
 
-h1, h2, h3, h4, .brand{
+h1, h2, h3,.brand{
     font-family: 'Montserrat';
+    font-weight: bolder;
+    color: #301934;
 }
 
-a, p{
+h1{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 60px;
+  background-color: #d7f9ff;
+  text-transform: uppercase;
+}
+
+a, p, li, h4{
     font-family: Georgia;
+    color: #301934;
+    font-size: 1.1em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FAFF7F;
+  flex-wrap: wrap;
+}
+
+footer{
+  background-color: #FAFF7F;
+  padding: 7px;
+  text-align: center;
 }
 
 /* code modified from https://github.com/treehouse/ham-menu/tree/main */
 
-/* Show hamburger by default (mobile) */
-.hamburger {
-  font-size: 1.5em;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
 /* off-screen-menu */
 .off-screen-menu {
-  background-color:  rgb(34, 37, 49);
+  background-color:  #FAFF7F;
   height: 100vh;
   width: 100%;
   max-width: 450px;
@@ -43,28 +61,30 @@ a, p{
   align-items: center;    
   justify-content: center;
   text-align: center;
-  font-size: 3rem;
   transition: .3s ease;
+  z-index: 1;
 }
 .off-screen-menu.active {
   right: 0;
+  z-index: 1;
 }
 
 /* ham menu */
+
 .ham-menu{
   color: transparent;
-}
-
-.ham-menu {
   height: 50px;
   width: 40px;
   margin-left: auto;
+  background: none;
+  border: none;
+  padding: 0;
   position: relative;
 }
 .ham-menu span {
   height: 5px;
-  width: 100%;
-  background-color: #6F86FF;
+  width: 90%;
+  background-color: #301934;
   border-radius: 25px;
   position: absolute;
   left: 50%;
@@ -73,17 +93,18 @@ a, p{
   transition: .3s ease;
 }
 .ham-menu span:nth-child(1) {
-  top: 25%;
+  top: 30%;
 }
 .ham-menu span:nth-child(3) {
-  top: 75%;
+  top: 70%;
 }
 .ham-menu.active span {
-  background-color: white;
+  background-color: #301934;
 }
 .ham-menu.active span:nth-child(1) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
+  z-index: 2;
 }
 .ham-menu.active span:nth-child(2) {
   opacity: 0;
@@ -91,7 +112,95 @@ a, p{
 .ham-menu.active span:nth-child(3) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 2;
 }
+
+/* HOME PAGE */
+.home-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: -1;
+}
+
+.home-img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+  pointer-events: none;
+}
+
+#home-nav{
+  list-style-type: none;
+}
+
+/* ABOUT ME */
+.about-text{
+  line-height: 150%;
+  text-align: center;
+  padding: 10%;
+}
+
+#family-pic{
+  max-width: 100%;
+  height: auto;
+}
+
+/* WORK EXPERIENCE */
+
+.top-of-page{
+  position: relative;
+  text-align: center;
+}
+
+.resume-button {
+  display: inline-block; /* or 'block' if you want it on its own line */
+  background-color: #3b3054;
+  color: #d7f9ff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2{
+  font-size: 2em;
+  line-height: 150%;
+}
+
+#education, #work{
+  padding: 10px 20%;
+  line-height: 150%;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+h4{
+  font-style: italic;
+  font-weight: normal;
+}
+
+.activity{
+  list-style-position: inside;
+}
+
+.edu-experience, .work-experience{
+  padding: 10px;
+}
+
+/* DESKTOP SPECIFC */
 
 @media only screen and (min-width: 800px){
   .ham-menu {
@@ -128,5 +237,33 @@ a, p{
 
   .off-screen-menu.active {
     right: auto; /* disables the slide-in */
+  }
+
+  /* HOME PAGE */
+
+  #home-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .home-img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 /4;
+  }
+
+  /* ABOUT PAGE */
+  .about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5% 20%;
+    align-items: center;
+  }
+
+  /* WORK EXPERIENCE PAGE */
+  .date-formatting{
+    display: flex;
+    justify-content: space-between;
   }
 }

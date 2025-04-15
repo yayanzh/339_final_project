@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        .navbar{
+            flex-direction: row-reverse;
+        }
+    </style>
 </head>
 <body>
     <a href = "#main" class = "skip" tabindex="0" >Skip to Main Content</a>
@@ -38,19 +43,34 @@
 
     <main id="main">
         <h1>Yaya Harman</h1>
-        <ul>
-            <li><img src="images/headshot.jpg" alt="Professional picture of Yaya"><p class = "overlay">About Me</p></li>
-            <li><img src="images/hockeywork1.JPG" alt="Yaya setting up Jacob Truscott's maize jersey"><p class = "overlay">Work Experience</p></li>
-            <li><img src="images/yost.JPG" alt="Yost as the sun streams through the windows"><p class="overlay">Work Samples</p></li>
+        <ul id="home-nav">
+          <li>
+            <div class="home-container">
+              <img src="images/headshot.jpg" alt="Professional picture of Yaya" class="home-img">
+              <div class="overlay">About Me</div>
+            </div>
+          </li>
+          <li>
+            <div class="home-container">
+              <img src="images/hockeywork1.JPG" alt="Yaya setting up Jacob Truscott's maize jersey" class="home-img">
+              <div class="overlay">Work Experience</div>
+            </div>
+          </li>
+          <li>
+            <div class="home-container">
+              <img src="images/yost.JPG" alt="Yost as the sun streams through the windows" class="home-img">
+              <div class="overlay">Work Samples</div>
+            </div>
+          </li>
         </ul>
-    </main>
+    </main>      
 
 
     <footer>
-        <a href="contact.html">Contact Me</a> &#169; 2024 by Yaya Harman 
+        <a href="contact.html">Contact Me</a> &#169; 2025 by Yaya Harman 
     </footer>
 
-    <script src="js/header.js"></script>
+    <script src="js/js.js"></script>
 
 </body>
 </html>

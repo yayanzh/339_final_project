@@ -11,20 +11,28 @@
 </head>
 <body>
     <a href = "#main" class = "skip" tabindex="0" >Skip to Main Content</a>
+    <!-- code modified from https://github.com/treehouse/ham-menu/tree/main -->
+
     <header>
-        <nav>
-            <div class="topnav">
-                <a href="contact.html" class="active">Contact</a>
-                <div id="myLinks">
-                    <a href="home.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="resume.html">Work Experience</a>
-                    <a href="writing.html">Work Samples</a>    
-                </div>
-                <a href="javascript:void(0);" class="icon"><i class="fa fa-bars"></i></a>
+        <nav class = 'navbar'>
+            <div class="brand">Yaya Harman</div>
+            <div class = "off-screen-menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Work Experience</a></li>
+                    <li><a href="writing.html">Work Samples</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
+
+            <button class="ham-menu">
+                Navigation Menu
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
-        <!-- Hamburger menu code from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
     </header>
 
     <main id="main">
@@ -59,10 +67,10 @@
     </main>
     
     <footer>
-        <a href="contact.html">Contact Me</a> &#169; 2024 by Yaya Harman 
+        &#169; 2025 by Yaya Harman 
     </footer>
 
-    <script src="js/header.js"></script>
+    <script src="js/js.js"></script>
 
 </body>
 </html>

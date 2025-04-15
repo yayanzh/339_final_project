@@ -12,35 +12,43 @@
 <body>
     <a href = "#main" class = "skip" tabindex="0" >Skip to Main Content</a>
     <header>
-        <nav>
-            <div class="topnav">
-                <a href="home.html" class="active">Home</a>
-                <div id="myLinks">
-                    <a href="about.html">About</a>
-                    <a href="resume.html">Work Experience</a>
-                    <a href="writing.html">Work Samples</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <a href="javascript:void(0);" class="icon"><i class="fa fa-bars"></i></a>
+        <nav class = 'navbar'>
+            <div class="brand">Yaya Harman</div>
+            <div class = "off-screen-menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Work Experience</a></li>
+                    <li><a href="writing.html">Work Samples</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
+
+            <button class="ham-menu">
+                Navigation Menu
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
-        <!-- Hamburger menu code from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
     </header>
 
     <main id="main">
         <h1>About Me</h1>
-        <p>
-            Hi! I'm Yaya Harman. I'm originally from the Bay Area, CA but now call Aspen, CO home. I am a student at the University of Michigan majoring in Information Analysis with a minor in Statistics. <br> I am an analytics intern and the Head Student Manager for Michigan Hockey. I assist the team with everything big and small. From sharpening skates to building complex data visualizations for the coaches, there isn't an ask too big or small. My attention to detail, problem-solving, and willingness to learn have flourished and developed in this role. <br> I aspire to stay in college or junior hockey in an equipment, operations, or analytics role. I am always looking for more experience in these areas to expand my knowledge and understanding of the industry. 
-
-        </p>
-        <img src="images/family.JPG" alt="Yaya's sister, mom and herself dressed nicely">
+        <div class="about-container">
+            <p class="about-text">
+                Hi! I'm Yaya Harman. I'm originally from the Bay Area, CA but now call Aspen, CO home. I am a student at the University of Michigan majoring in <strong>Information Analysis</strong> with a minor in Statistics. <br> <br> I am an analytics intern and the Head Student Manager for <strong>Michigan Hockey</strong>. I assist the team with everything big and small. From sharpening skates to building complex data visualizations for the coaches, there isn't an ask too big or small. My attention to detail, problem-solving, and willingness to learn have flourished and developed in this role. <br> <br> I aspire to stay in college or junior hockey in an equipment, operations, or analytics role. I am always looking for more experience in these areas to expand my knowledge and understanding of the industry. 
+            </p>
+            
+            <img id="family-pic" src="images/family.JPG" alt="Yaya's sister, mom and herself dressed nicely">
+        </div>
     </main>
     
     <footer>
-        <a href="contact.html">Contact Me</a> &#169; 2024 by Yaya Harman 
+        <a href="contact.html">Contact Me</a> &#169; 2025 by Yaya Harman 
     </footer>
 
-    <script src="js/header.js"></script>
+    <script src="js/js.js"></script>
 
 </body>
 </html>
