@@ -31,9 +31,6 @@ for (let index = 0; index < thumbnails.length; index++){
   thumbnails[index].addEventListener('mouseout', function() {
     overlays[index].style.visibility = 'hidden';
   });
-
-}
-
-
+};
 
 
