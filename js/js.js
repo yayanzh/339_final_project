@@ -112,12 +112,12 @@ function showRandomImages(containerId, imageArray) {
       img.className = 'responsive-img'; // adds class to style
       container.appendChild(img); // appends it to the image container
   });
-}
+};
 
 
 document.addEventListener('DOMContentLoaded', () => { //changes on reload
-  showRandomImages('imageContainer1', imageSet1)
-  showRandomImages('imageContainer2', imageSet2)
+  showRandomImages('imageContainer1', imageSet1);
+  showRandomImages('imageContainer2', imageSet2);
 });
 
 
