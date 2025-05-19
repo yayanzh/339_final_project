@@ -7,18 +7,25 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>About Me</title>
+    <title>Home</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        .navbar{
+            flex-direction: row-reverse;
+        }
+    </style>
 </head>
 <body>
     <a href = "#main" class = "skip" tabindex="0" >Skip to Main Content</a>
+
+    <!-- code modified from https://github.com/treehouse/ham-menu/tree/main -->
+
     <header>
         <nav class = 'navbar'>
-            <div class="brand">Yaya Harman</div>
             <div class = "off-screen-menu">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a class="active-link" href="index.html">About</a></li>
+                    <li><a class="active-link" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="resume.html">Work Experience</a></li>
                     <li><a href="writing.html">Work Samples</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -36,18 +43,38 @@
     </header>
 
     <main id="main">
-        <h1>About Me</h1>
-        <div class="about-container">
-            <p class="about-text">
-                Hi! I'm Yaya Harman. I'm originally from the Bay Area, CA but now call Aspen, CO home. I am a student at the University of Michigan majoring in <strong>Information Analysis</strong> with a minor in Statistics. <br> <br> I am an analytics intern and the Head Student Manager for <strong>Michigan Hockey</strong>. From sharpening skates to building complex data visualizations for the coaches, there isn't an ask too big or small. My attention to detail, problem-solving, and willingness to learn have flourished and developed in this role. <br> <br> I aspire to stay in college or junior hockey in an equipment, operations, or analytics role. I am always looking for more experience in these areas to expand my knowledge and understanding of the industry. 
-            </p>
-            
-            <img id="family-pic" src="images/family.JPG" alt="Yaya's sister, mom and herself dressed nicely">
-        </div>
-    </main>
-    
+        <h1>Yaya Harman</h1>
+        <ul id="home-nav">
+          <li>
+            <div class="home-container">
+              <a href="about.html">
+                <img src="images/headshot.jpg" alt="Professional picture of Yaya" class="home-img">
+                <div class="overlay">About Me</div>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="home-container">
+              <a href="resume.html">
+                <img src="images/hockeywork1.JPG" alt="Yaya setting up Jacob Truscott's maize jersey" class="home-img">
+                <div class="overlay">Work Experience</div>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="home-container">
+              <a href="writing.html">
+                <img src="images/yost.JPG" alt="Yost as the sun streams through the windows" class="home-img">
+                <div class="overlay">Work Samples</div>
+              </a>
+            </div>
+          </li>
+        </ul>
+    </main>      
+
+
     <footer>
-        <a href="contact.html">Contact Me</a> | &#169; 2025 by Yaya Harman 
+        <a href="contact.html">Contact Me</a> &#169; 2025 by Yaya Harman 
     </footer>
 
     <script src="js/js.js"></script>
