@@ -3,7 +3,7 @@
 const imageSet1 = [
     {
       src: '/images/hockey-images/IMG_0036 2.png',
-      alt: 'Yaya and 2 coworkers standing on the bench at the outdoor hockey game at Wrigley Field'
+      alt: "Yaya and 2 coworkers standing on the bench at the outdoor hockey game at Wrigley Field"
     },
     {
       src: '/images/hockey-images/IMG_0527.png',
