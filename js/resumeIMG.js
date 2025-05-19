@@ -54,7 +54,7 @@ const imageSet1 = [
     },
     {
       src: '/images/coaching-images/1B7B5546-42C6-4F7E-839E-DBE6F763DA78_1_201_a.jpeg',
-      alt: 'Picutre taken by Yaya of swim athletes lined up to dive'
+      alt: 'Picture taken by Yaya of swim athletes lined up to dive'
     }
   ]
   
