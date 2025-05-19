@@ -2,58 +2,58 @@
 
 const imageSet1 = [
     {
-      src: 'images/hockey-images/IMG_0036 2.png',
+      src: '/images/hockey-images/IMG_0036 2.png',
       alt: 'Yaya and 2 coworkers standing on the bench at the outdoor hockey game at Wrigley Field'
     },
     {
-      src: 'images/hockey-images/IMG_0527.png',
+      src: '/images/hockey-images/IMG_0527.png',
       alt: "Garrett Schifsky's stall set up for game day"
     },
     {
-      src:'images/hockey-images/IMG_0873 3.png',
+      src:'/images/hockey-images/IMG_0873 3.png',
       alt: "Yaya sitting in the back of a box truck surrounded by hockey bags"
     },
     {
-      src: 'images/hockey-images/IMG_3391.png',
+      src: '/images/hockey-images/IMG_3391.png',
       alt: "Yaya changing Will Felicio's skate blade on the bench"
     },
     {
-      src: 'images/hockey-images/IMG_3682.png',
+      src: '/images/hockey-images/IMG_3682.png',
       alt: "Yaya setting up the locker room for practice"
     },
     {
-      src: 'images/hockey-images/IMG_4635 2.png',
+      src: '/images/hockey-images/IMG_4635 2.png',
       alt: "Yaya with 4 coworkers and a giant 2024 Frozen Four ticket"
     },
     {
-      src: 'images/hockey-images/IMG_6351.png',
+      src: '/images/hockey-images/IMG_6351.png',
       alt: "Yaya with the 2024 NCAA Regionals trophy"
     },
     {
-      src: 'images/hockey-images/IMG_7782 3.JPG',
+      src: '/images/hockey-images/IMG_7782 3.JPG',
       alt: "Yaya fixing Logan Stein's helmet during a game"
     }
   ]
   
   const imageSet2 = [
     {
-      src: 'images/coaching-images/3EbkeeJuQRSs9jf_dp5B7A.jpg',
+      src: '/images/coaching-images/3EbkeeJuQRSs9jf_dp5B7A.jpg',
       alt: 'Yaya with 2 other swim coaches'
     },
     {
-      src: 'images/coaching-images/GTonG9mvQZ6JMx4zp90nQg 2.jpg',
+      src: '/images/coaching-images/GTonG9mvQZ6JMx4zp90nQg 2.jpg',
       alt: 'Yaya ski coaching being hugged by two young athletes'
     },
     {
-      src: 'images/coaching-images/HzAN0CptSmWavR2KOM4zMA.jpg',
+      src: '/images/coaching-images/HzAN0CptSmWavR2KOM4zMA.jpg',
       alt: 'Yaya ski coaching with an athlete on her shoulders'
     },
     {
-      src: 'images/coaching-images/64E06EE4-6D78-42A0-AFCA-2A3A4E6E82FA_1_201_a.jpeg',
+      src: '/images/coaching-images/64E06EE4-6D78-42A0-AFCA-2A3A4E6E82FA_1_201_a.jpeg',
       alt: 'Picture taken by Yaya of a swim athlete kicking with a kickboard'
     },
     {
-      src: 'images/coaching-images/1B7B5546-42C6-4F7E-839E-DBE6F763DA78_1_201_a.jpeg',
+      src: '/images/coaching-images/1B7B5546-42C6-4F7E-839E-DBE6F763DA78_1_201_a.jpeg',
       alt: 'Picutre taken by Yaya of swim athletes lined up to dive'
     }
   ]
