@@ -271,6 +271,7 @@ h4{
   flex: 1 1 300px; 
   max-width: 300px;
   margin: 30px 5%;
+  line-height: 1.1;
 }
 
 #writing-container{
