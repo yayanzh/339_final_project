@@ -32,6 +32,23 @@ const imageSet1 = [
     {
       src: '/images/hockey-images/IMG_7782 3.JPG',
       alt: "Yaya fixing Logan Stein's helmet during a game"
+    },
+    {
+      src: '/images/hockey-images/IMG_1018.png',
+      alt: "Yaya and 2 coworkers standing on the ice with giant 2026 Frozen Four ticket"
+    },
+    {
+      src: '/images/hockey-images/IMG_0788.png',
+      alt: "Yaya holding the 2026 Big Ten Tournament trophy"
+    },
+    {
+      src: '/images/hockey-images/IMG_0434.png',
+      alt: "Yaya and a coworker standing on the bench at Little Caesars Arena"
+    },
+
+    {
+      src: '/images/hockey-images/IMG_3730.png',
+      alt: "Yaya smiling on the bench at Yost with a pair of blades and pliers in her back pocket"
     }
   ]
   
